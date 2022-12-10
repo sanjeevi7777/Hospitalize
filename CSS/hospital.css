@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.top{
+    background-color:aliceblue;
+    padding: 14px 16px;
+    padding: 15px;
+    /* float: left; */
+    width: 100%;
+}
+.hospitalize{
+    float: left;
+    position: relative;
+    /* font-size: 33px; */
+    /* font-weight: 100; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin-left: 35px;
+}
+.name{
+    float: right;
+    /* font-size: 45px; */
+    margin-right: 4%;
+}
+ul{
+    list-style-type: none;
+    float: left;
+    background-color: darkolivegreen;
+    width: 100%;
+}
+li{
+    float: left;
+    padding: 20px;
+    /* font-size: 27px; */
+    border-color: blue;
+    text-decoration: none;
+    color: black;
+}
+li a{
+    color: white;
+    /* background-color: darkgreen; */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: tomato;
+}
+.b:focus{
+    background-color: tomato;
+}
+
+.top::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.hospitals{
+    padding-left: 25px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 5px;
+    width: 47%;
+    float: right;
+
+}
+
+#state{
+    /* color: rebeccapurple; */
+    size: 50%;
+    font-size: 150%;
+}
+h4{
+    font-size: 25px;
+}
+
+.radio{
+    font-size: 150%;
+    /* color: rebeccapurple; */
+}
+.radio{
+    size: 100%;
+}
+.left{
+    float: left;
+    width: 15%;
+}
+.right{
+    float: right;
+    width: 80%;
+}
+.right::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.hptl{
+    padding: 5%;
+    background-color: aliceblue;
+    margin-top: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+}
+.one{
+    width: 50%;
+    float: left;
+}
+.two{
+    width: 50%;
+    float: right;
+}
+.hptl:hover{
+    background-color: lightblue;
+    transform: scale(1.05);
+    cursor: pointer;
+    transform: 1s;
+}
+.c{
+    margin-left: 40vw;
+}
